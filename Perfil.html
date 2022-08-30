@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./CSS/Perfil.css">
+</head>
+<body>
+    <div id="flex-container-menu">
+        <header>
+            <div id="flex-item-logo"></div>
+            <div id="flex-item-nomeLoja"></div>
+        <div id="flex-item-opcoes">
+            <a href="./Edicao.html" class="flex-subitem-menu"><p>Edição de Produtos</p></a>
+            <a href="./Cadastro.html" class="flex-subitem-menu"><p>Cadastro de Produtos</p></a>
+            <a href="./Listagem.html" class="flex-subitem-menu"><p>Listagem de Produtos</p></a>
+            <a href="./Perfil.html" class="flex-subitem-menu"><p>Perfil</p></a>
+        </div> 
+    </header>
+    </div>
+        <main id="flex-container-conteudo">
+                <div id="flex-container-tema">
+                    <p>Perfil</p>
+                </div>
+            <form>
+                <div id="changeLogo">
+                    <label><p>Mudar logo:</p></label>
+                    <input type="url" placeholder="Insira o URL da imagem" id="inputChangeLogo">
+                    <input type="button" value="Mudar" class="button" onclick="changeLogo()">
+                </div>
+                <div id="changeName">
+                    <label><p>Mudar nome:</p></label>
+                    <input type="text" placeholder="Insira o novo nome" id="inputChangeName">
+                    <input type="button" value="Mudar" class="button" onclick="changeName()">
+                </div>
+                <div id="changeBackground">
+                    <label><p>Inserir imagem de fundo:</p></label>
+                    <input type="url" placeholder="Insira o url da imagem de background" id="inputChangeBackground">
+                    <input type="button" value="Mudar" class="button" onclick="changeBackground()">
+                </div>
+            </form>
+        </main>
+        <script src="./Menu.js"></script>
+</body>
+</html>

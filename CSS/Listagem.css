@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    background-color:rgb(152, 171, 172);
+}
+
+#flex-container-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 58.55em;
+    position:fixed;
+    border-right: solid 3px aliceblue;
+    background-color: rgb(41, 73, 74);
+}
+
+
+#flex-item-logo img{
+    display: flex;
+    border-radius: 10%;
+    border: dashed 2px white;
+    height: auto;
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+#flex-item-nomeLoja{
+    display: inline;
+}
+
+#flex-item-nomeLoja p{
+    text-align: center;
+    font: italic 22pt Didot, serif;
+    color:aliceblue;
+}
+
+#flex-item-opcoes a:hover{
+    background-color: rgb(154, 175, 169);
+    color: black;
+}
+
+#flex-item-opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-subitem-menu{
+    display: flex;
+    background-color: rgb(52, 91, 92);
+    width: 100%;
+    justify-content: center;
+    border-top: solid 1px rgb(35, 67, 68);
+    font: normal 13pt Calibri;
+    color: aliceblue;
+}
+
+#flex-container-menu a{
+    text-decoration: none;
+}
+
+#flex-container-conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 80%;
+}
+
+#flex-container-tema{
+    height: 50px;
+    width: 90%;
+    margin: 1% 5% 2% 25%;
+    background-color: rgb(35, 67, 68);
+    align-items: center;
+    border-radius: 10px;
+}
+
+#flex-container-tema p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font: normal 12pt Calibri;
+}
+
+
+/*COMEÇA O CÓDIGO PARTICULAR*/
+
+#flex-container-listar-produtos{
+    background-color: rgb(35, 67, 68);
+    margin: 0% 5% 1% 25%;
+    width: 86%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    border-collapse: collapse;
+    font: normal 13pt calibri;
+    text-align: center;
+}
+
+
+#flex-container-listar-produtos span{
+    color:darkmagenta;
+    font: bold 13pt arial;
+}
+
+#flex-container-listar-produtos img{
+    margin-top: -4%;
+    border: dotted 2px white;
+    width: 40%;
+    height: auto;
+}
+
+#divProdutoTitulo{
+    color: aliceblue;
+}
+
+#flex-container-listar-produtos td{
+    background-color: rgb(218, 219, 215);
+    padding: 1% 0% 1% 0%;
+    width: 10%;
+}
+
+#flex-container-listar-produtos #tr_imagens{
+    background-color: rgb(154, 175, 169);
+    width: 10%;
+}
+
+#flex-item-img img{
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+
+
+
